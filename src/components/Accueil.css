@@ -1,0 +1,64 @@
+.accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.message {
+    background-color: red;
+    color: white;
+    /* padding: 10px; */
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 60%;
+    position: relative;
+    bottom: 5%;
+    font-size: 20px;
+}
+
+.button-form {
+    display: flex;
+    text-align: right;
+    position: absolute;
+    left: 80%;
+    bottom: 90%;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+/* Styles pour les blocs non cliquables et semi-transparents */
+.transparent-block {
+    opacity: 0.5;
+    pointer-events: none; /* Désactive le clic */
+}
+
+.mario img {
+    position: absolute;
+    right: 10%;
+    bottom: 40%;
+    width: 100px;
+}
+
+.mario-flag img {
+    height: auto;
+    width: 200px;
+    position: absolute;
+    left: 80%;
+    bottom: 20%;
+    cursor: pointer;
+}

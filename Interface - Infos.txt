@@ -1,0 +1,63 @@
+								Personnalité Interface : joviale et divertissante
+
+
+
+Accueil :
+	- L'utilisateur sera accueilli avec un message de bienvenue tout en haut.
+	- Il va commencer par le 1er bloc pour commencer le 1er niveau.
+	- Le premier bloc sera visible et les autres seront transparents, ce qui oblige l'utilisateur a cliqué sur le premier bloc, donc il faut activer le 1er bloc pour cliquer et les autres non
+	- L'image Mario (saut) sera affiché à gauche des blocs pour montrer qu'il est prêt à commencer un niveau.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Perso :
+	- Description de ma vie :
+		- elle s'affichera toute seule sous forme de nuage blanc.
+	
+	- Motivations = Champi rouge
+		- l'utilisateur va cliquer sur le champi rouge (grandir). 
+		- Au survol du champi, il changera en vert (1UP). 
+		- Quand il cliquera sur le champi, il sera remplacé par une image ou un pictogramme avec un texte grâce à un modèle API (ex : fade) du 			  Material UI.
+		- Un son audio peut être accompagné.
+
+	- Passions = Méga champi
+		- l'utilisateur va cliquer sur le méga champi. 
+		- Au survol du méga champi, le méga champi grandit un peu. 
+		- Quand il cliquera sur le méga champi, il sera remplacé par une image ou un pictogramme avec un texte grâce à un modèle API (ex : fade) du 		  Material UI. 	
+		- Un son audio peut être accompagné.
+
+	- Valeurs (3 mots-clés) de ma personnalité = cœurs
+		- l'utilisateur va cliquer sur le cœur
+		- Quand il cliquera sur le cœur, il sera remplacé par une image ou un pictogramme avec un texte grâce à un modèle API (ex : fade) du 			  Material UI. 
+		- Un son audio peut être accompagné.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Accueil :
+	- Le 1er bloc ? sera remplacé par un bloc vide/incassable. Et l'utilisateur doit cliquer sur le deuxième bloc suivant (visible)
+	- L'image Mario (saut) reste à la même place.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Parcours scolaire :
+
+	- L'utilisateur va cliquer sur une pièce une par une pour afficher la date et la description accompagné d'un modèle API (Fade) jusqu'à ce qu'il se 	  puisse cliquer ensuite sur Mario pour revenir à la page Accueil et frapper le bloc suivant. 
+	- Un son audio peut être accompagné.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Accueil :
+	- Le 2ème bloc ? sera remplacé par un bloc vide/incassable.
+	- L'utilisateur doit cliquer sur le troisième bloc suivant (visible)
+	- L'image Mario (saut) reste à la même place.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Parcours pro :
+
+
+	- l'utilisateur va cliquer sur un brique (qui sera changé en bloc) un par un pour afficher la date et la description d'un modèle API (Fade) jusqu'à 	  qu'il se puisse cliquer ensuite sur Mario pour revenir à la page Accueil. 
+	- Un son audio peut être accompagné.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Accueil :
+	- L'utilisateur a fini tous les niveaux.
+	- Désormais, il pourra rejouer n'importe quel niveau de son choix.
+	- Le titre sera remplacé par Niveau terminé (français) ou Course cleared (anglais)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Improvisation :
+	- Page Accueil
+	- Page Perso
